@@ -1,0 +1,36 @@
+[user]
+	email = gabriel.danjon@epitech.eu
+	name = gabriel.danjon@epitech.eu
+[core]
+    # excludesfile = /home/sylvain/.gitignore_global
+    autocrlf = false
+    safecrlf = false
+    filemode = false
+    editor = emacs
+[alias]
+    rb = rebase
+    undo = reset --soft HEAD^
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    lg = log -p
+    lp = log --pretty=oneline --graph --all
+    lpr = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    lo = log --oneline
+    fa = fetch --all
+    fetchap = fetch --all --prune
+    pullf = pull --ff-only
+    mergenf = merge --no-ff
+    pick = cherry-pick
+[push]
+    default = current
+[tag]
+    sort = v:refname
+[http]
+    postBuffer = 1048576000
+[versionsort]
+    prereleaseSuffix = -alpha
+    prereleaseSuffix = -beta
+    prereleaseSuffix = -rc
