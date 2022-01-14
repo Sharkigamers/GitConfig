@@ -1,12 +1,11 @@
 [user]
-	email = gabriel.danjon@epitech.eu
-	name = gabriel.danjon@epitech.eu
+	email = [email]
+	name = [name]
 [core]
-    # excludesfile = /home/sylvain/.gitignore_global
     autocrlf = false
     safecrlf = false
     filemode = false
-    editor = emacs
+    editor = vim
 [alias]
     rb = rebase
     undo = reset --soft HEAD^
